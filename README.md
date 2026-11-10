@@ -7,7 +7,7 @@ ultima_atualizacao: Dia/mês/ano
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
-# [Nome do projeto]
+# [IFilmes]
 
 [Descrição em uma ou duas frases: qual problema o site resolve e para quem.]
 
@@ -22,7 +22,7 @@ arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.
 ## Links
 
 - **Site publicado (GitHub Pages):** [https://USUARIO.github.io/projeto-final-lp2/](https://USUARIO.github.io/projeto-final-lp2/)
-- **Protótipo no Figma:** [link]
+- **Protótipo no Figma:** [https://www.figma.com/design/MdnSm7Xo2hbeJr4EKJg6nJ/Sem-t%C3%ADtulo?node-id=0-1&t=Q1hvp86axWUvyacq-1]
 - **Apresentação:** [link dos slides]
 
 ## Estrutura do repositório
