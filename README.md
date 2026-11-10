@@ -9,15 +9,16 @@ arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.
 
 # [IFilmes]
 
-[Descrição em uma ou duas frases: qual problema o site resolve e para quem.]
+[Problema: A dificuldade que muitas pessoas enfrentam para encontrar filmes de maneira rápida, organizada e acessível. Muitas vezes, os usuários não sabem qual filme assistir, têm dificuldade para encontrar informações sobre os títulos, como sinopse, gênero, classificação e avaliações, ou precisam acessar vários sites diferentes para encontrar essas informações. Dessa forma, o site busca facilitar a experiência dos usuários, reunindo filmes e suas principais informações em um único lugar, tornando a busca e a escolha de filmes mais simples, prática e rápida.
+Público-alvo: O site é destinado a todos os públicos, especialmente pessoas que gostam de assistir filmes e procuram uma maneira fácil e prática de conhecer novos títulos e escolher o que assistir.]
 
 ## Integrantes
 
 | Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
-|---|---|
-| [Nome completo] | [Ex.: Figma, estrutura HTML e documentação] |
-| [Nome completo] | [Ex.: estilos CSS, JS e responsividade] |
-| [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
+|---|---| Obs: ainda não coloquei o que cada um fez
+| [Larissa Alves Pereira] | [Ex.: Figma, estrutura HTML e documentação] |
+| [Yara Gabriela dos Reis de Jesus] | [Ex.: estilos CSS, JS e responsividade] |
+| [Rafael dos Reis Souza] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
 
 ## Links
 
