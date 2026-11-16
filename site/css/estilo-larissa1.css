@@ -46,7 +46,23 @@ body{
     justify-content:center;
     gap: 20px;
     align-items: center; 
+    color: #101014;
 }
+
+
+.Catálago a {
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin : 80px;
+    margin-bottom: 60px;
+
+}
+
 
 .linha{
 
@@ -69,7 +85,20 @@ body{
 
 }
 
+.conteudo h1,
+.conteudo p {
+    text-align: center;
+     color: #FFFFFF
+}
 
+.tudo-card-primeira-horizontal{
+
+    display: grid;
+    grid-template-columns: repeat(2,15px);
+    justify-content: center;
+    
+    
+}
 
 
 
