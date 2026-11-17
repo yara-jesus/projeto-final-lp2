@@ -3,6 +3,7 @@ body{
     width: 100%;
     height: 100dvh;
     background-color:#101014
+    
 }
 
 .titulo-P{
@@ -98,6 +99,26 @@ body{
     justify-content: center;
     
     
+}
+
+
+
+
+
+
+.tudo-card-terceira-horizontal img,
+.tudo-card-segunda-horizontal img,
+.tudo-card-primeira-horizontal img {
+  
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+
+.tudo-card-terceira-horizontal img:hover,
+.tudo-card-segunda-horizontal img:hover,
+.tudo-card-primeira-horizontal img:hover {
+    transform: translateY(-12px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(139, 69, 19, 0.4);
 }
 
 
