@@ -247,25 +247,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .linha2 {
     border-bottom: 1px solid #5f5228;
     margin: 20px 0;
@@ -445,6 +426,150 @@ body {
     border-radius: 6px;
     padding: 12px;
 
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .linha2 {
+        margin: 15px 0;
+    }
+
+    .card-tudo-contato {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .card-tudo-esquerda {
+        order: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .entre-contato {
+        justify-content: center;
+    }
+
+    .subtitulo {
+        font-size: 13px;
+        margin-right: 0;
+    }
+
+    .linha3 {
+        margin: 10px 0;
+    }
+
+    .titulo-contato {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+
+    .descricao {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .conteudo-principal1 {
+        width: 100%;
+    }
+
+    .informacoes {
+        width: 100%;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 380px;
+        box-sizing: border-box;
+        text-align: left;
+        padding: 12px;
+        gap: 15px;
+    }
+
+    .info h3 {
+        margin: 0 0 4px 0;
+        font-size: 16px;
+    }
+
+    .info p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .iconeInfo {
+        width: 30px;
+        height: auto;
+    }
+
+    .redes-titulo {
+        margin: 10px 0 5px 0;
+        font-size: 18px;
+    }
+
+    .redes {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icone {
+        width: 35px;
+    }
+
+    .formulario {
+        order: 2;
+        width: 100%;
+        max-width: 380px;
+        padding: 18px;
+        gap: 12px;
+    }
+
+    .formulario h2 {
+        font-size: 20px;
+    }
+
+    .formulario p {
+        font-size: 13px;
+    }
+
+    .campos {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .campos input {
+        width: 100%;
+    }
+
+    .formulario input,
+    .formulario textarea {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .formulario button {
+        width: 100%;
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .linha-final {
+        margin: 15px 0;
+    }
 }
 
 
