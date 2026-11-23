@@ -25,9 +25,21 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 
 | Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
 |---|---|---|---|---|---|---|
-| 2026-11-05 | ChatGPT | Estrutura HTML | site/index.html | Dúvida sobre a diferença entre `section` e `div`; a página tinha tudo dentro de `div`, o que dificultava ler a estrutura | Reorganizei o cabeçalho e as seções da página e testei no navegador | prints/ia-01.png |
-| 2026-11-12 | Meta AI | Responsividade | site/css/estilo.css | O menu sumia no celular e não sabíamos como adaptar o layout; tentamos ajustar larguras fixas sem sucesso | Entendi o uso de `@media` e escrevi a regra do menu hambúrguer por conta própria | prints/ia-02.png |
-| 2026-11-19 | Gemini | Validação do formulário | site/js/main.js | O envio aceitava campos vazios e e-mail inválido; não tínhamos certeza de como validar em JavaScript | Não usei o trecho sugerido; implementei a validação com `required` no HTML e revisei a lógica com o professor | prints/ia-03.png |
+| 2026-11-18 | ChatGPT | Estrutura css | estilo-larissa1.css | Dúvida sobre como fazer o css no formulario | fiz todo parte do css com a ajuda do chat | pasta-prints-formulario |
+
+
+| 2026-11-23 | ChatGPT | Estrutura css | estilo-larissa1.css | Dúvida sobre como passa de dekstop para mobile, da pagina de cátalago de filmes  | fiz todo parte do css com a ajuda do chat |como-faz-a-versão-mobile-catálago-de-filmes0|
+
+
+| 2026-11-23 | ChatGPT | Estrutura css | estilo-larissa1.css | Dúvida sobre como passa de dekstop para mobile, da pagina de contatos| fiz todo parte do css com a ajuda do chat gpt | como-faz-a-versão-mobile-contatos0 |
+
+
+
+
+
+
+
+
 
 
 
