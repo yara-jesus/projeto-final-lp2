@@ -1,3 +1,46 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background: #762b3d;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+.topo-links,
+.icones-super {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.topo-links a,
+.icones-super a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+
+}
+
+.topo-links a {
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+
 body {
     margin: 0px;
     width: 100%;
@@ -293,6 +336,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border-bottom: 30px;
 
 }
 
@@ -344,7 +388,7 @@ body {
 
 
 .redes {
-
+    
     display: flex;
     gap: 20px;
 }
@@ -574,10 +618,26 @@ body {
 
 
 
+footer{
+    background:#762b3d;
+    color:white;
+    padding:40px;
+}
 
+.rodape{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap:40px 100px;
+}
 
+.bloco a{
+    display:block;
+    color:white;
+}
 
-
-
-
+.rodapefim{
+    text-align:center;
+    margin-top:15px;
+   
+}
 
