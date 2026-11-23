@@ -1,13 +1,13 @@
-body{
+body {
     margin: 0px;
     width: 100%;
     height: 100dvh;
     background-color: #101014;
-     
-    
+
+
 }
 
-.titulo-P{
+.titulo-P {
 
     display: flex;
     align-items: center;
@@ -15,26 +15,25 @@ body{
     text-align: center;
     font-size: 30px;
     color: #f5f0e0
-    
-
 }
 
-.pesquisar{
+.pesquisar {
 
     display: flex;
     align-items: center;
     gap: 20px;
 
     background-color: #ffffff;
-    img{
+
+    img {
 
         width: 40px;
         height: 40px;
-    
+
     }
 }
 
-.categorias{
+.categorias {
 
     display: flex;
     justify-content: center;
@@ -43,11 +42,11 @@ body{
     color: #f5f0e0
 }
 
-.Catálago{
-    display:flex;
-    justify-content:center;
+.Catálago {
+    display: flex;
+    justify-content: center;
     gap: 20px;
-    align-items: center; 
+    align-items: center;
     color: #101014;
 }
 
@@ -60,46 +59,49 @@ body{
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin : 80px;
+    margin: 80px;
     margin-bottom: 60px;
 
 }
 
 
-.linha{
+.linha {
 
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 80px;
-    align-items: center; 
+    align-items: center;
     align-items: start;
 }
 
-.imagems{
+
+
+
+
+.imagems {
 
     width: 400px;
-    border-radius:10% ;
+    border-radius: 10%;
 }
 
 
-.titulo-SB{
+.titulo-SB {
     color: #f5f0e0
-
 }
 
 .conteudo h1,
 .conteudo p {
     text-align: center;
-     color: #FFFFFF
+    color: #FFFFFF
 }
 
-.tudo-card-primeira-horizontal{
+.tudo-card-primeira-horizontal {
 
     display: grid;
-    grid-template-columns: repeat(2,15px);
+    grid-template-columns: repeat(2, 15px);
     justify-content: center;
-    
-    
+
+
 }
 
 
@@ -110,7 +112,7 @@ body{
 .tudo-card-terceira-horizontal img,
 .tudo-card-segunda-horizontal img,
 .tudo-card-primeira-horizontal img {
-  
+
     transition: transform .4s ease;
     cursor: pointer;
 }
@@ -130,11 +132,143 @@ body{
 
 
 
+@media (max-width: 768px) {
+    .card-tudo-cima {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .titulo-P {
+        font-size: 20px;
+    }
+
+    .titulo-SB {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .pesquisar {
+        width: 90%;
+        margin: 0 auto 20px auto;
+        padding: 8px 15px;
+        border-radius: 15px;
+        gap: 10px;
+        box-sizing: border-box;
+    }
+
+    .pesquisar img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .pesquisar h1 {
+        font-size: 16px;
+        margin: 0;
+        color: #101014;
+    }
+
+    .categorias {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .Catálago {
+        gap: 0;
+    }
+
+    .Catálago a {
+        font-size: 16px;
+        padding: 8px 18px;
+        margin: 0;
+    }
+
+    .tudo-card-primeira-horizontal,
+    .tudo-card-segunda-horizontal,
+    .tudo-card-terceira-horizontal {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 12px;
+    }
+
+    .linha {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px 14px;
+        align-items: start;
+        margin-bottom: 24px;
+    }
+     
+
+
+
+
+
+    .conteudo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo a {
+        width: 100%;
+    }
+
+    .imagems {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .conteudo h1 {
+        font-size: 15px;
+        margin: 8px 0 4px 0;
+    }
+
+    .conteudo p {
+        font-size: 12px;
+        margin: 2px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .linha2 {
-   border-bottom: 1px solid #5f5228;
-   margin: 20px 0;
+    border-bottom: 1px solid #5f5228;
+    margin: 20px 0;
 }
 
 .card-tudo-contato {
@@ -160,35 +294,88 @@ body{
 }
 
 .linha3 {
-   border-bottom: 3px solid #762B3D;
-   margin: 20px 0;
+    border-bottom: 3px solid #762B3D;
+    margin: 20px 0;
 }
 
-.h1{
-    titulo-contato{
+.h1 {
+    titulo-contato {
         color: #f62b3d;
     }
-    titulo-contato span{
+
+    titulo-contato span {
         color: #9b8b59;
     }
 }
 
-.informacoes{
+.informacoes {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
 }
 
-.info{
+.info {
     display: flex;
-    justify-content: space-between;
-    background-color: #2c225a;
-    span{
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+    background-color: #D9D9D9;
+
+    span {
         font-size: 40px;
     }
+
     border-radius:20px;
+
 }
+
+
+.descricao {
+    color: #B8B8B8;
+}
+
+.conosco {
+
+    color: #762B3D;
+}
+
+.redes-titulo {
+    color: #FFFFFF;
+}
+
+
+
+.titulo-contato {
+    color: #F5F0E0;
+}
+
+.iconeInfo{
+    width: 35px;
+}
+
+.icone {
+
+    width: 40px;
+    display: flex;
+}
+
+
+.redes {
+
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 .formulario {
     display: flex;
@@ -241,7 +428,7 @@ body{
     width: 50%;
 }
 
-.formulario form > input {
+.formulario form>input {
     width: 100%;
 }
 
@@ -257,5 +444,15 @@ body{
     border: none;
     border-radius: 6px;
     padding: 12px;
-    
+
 }
+
+
+
+
+
+
+
+
+
+
