@@ -33,7 +33,7 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 
 | 2026-11-23 | ChatGPT | Estrutura css | estilo-larissa1.css | Dúvida sobre como passa de dekstop para mobile, da pagina de contatos| fiz todo parte do css com a ajuda do chat gpt | como-faz-a-versão-mobile-contatos0 |
 
-
+Yara-Não deu tempo de documentar aqui
 
 
 
