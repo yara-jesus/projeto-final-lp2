@@ -24,6 +24,8 @@ header {
     width: 80px;
     height: 80px;
      object-fit: contain;
+justify-content: center;
+    align-items: center;
 }
 
 
